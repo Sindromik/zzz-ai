@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Z.Z.Z AI</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <div class="brand">
+      <div class="brand-name">
+        Z.Z.Z <em>AI</em>
+      </div>
+
+      <div class="brand-tagline">
+        Dermatology Intelligence
+      </div>
+    </div>
+
+    <div class="header-deco">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <div class="main-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="sidebar-section">
+        <h3>About</h3>
+
+        <p>
+          AI skincare assistant helping analyze skin concerns,
+          irritation, hydration and routine balance.
+        </p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="sidebar-section">
+        <h3>Skin Focus</h3>
+
+        <div class="skin-badges">
+          <div class="skin-badge active">Dryness</div>
+          <div class="skin-badge">Acne</div>
+          <div class="skin-badge">Redness</div>
+          <div class="skin-badge">Barrier</div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="sidebar-section">
+
+        <h3>Features</h3>
+
+        <div class="feature-list">
+
+          <div class="feature-item">
+            <div class="feature-icon">✦</div>
+            Personalized AI recommendations
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">✦</div>
+            Minimal skincare routine analysis
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">✦</div>
+            Sensitive skin support
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="promo-card">
+
+        <h4>Z.Z.Z Vision</h4>
+
+        <p>
+          Elegant AI skincare guidance with a calm
+          and aesthetic digital experience.
+        </p>
+
+        <div class="promo-btn">
+          AI SYSTEM
+        </div>
+
+      </div>
+
+    </aside>
+
+    <!-- CHAT -->
+    <main class="chat-area">
+
+      <div class="chat-header">
+
+        <div class="ai-avatar">
+          S
+        </div>
+
+        <div class="ai-info">
+
+          <h4>Z.Z.Z Assistant</h4>
+
+          <p>
+            <span class="status-dot"></span>
+            AI Online
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- MESSAGES -->
+      <div class="chat-messages" id="chat">
+
+        <div class="message-row">
+
+          <div class="msg-avatar">
+            S
+          </div>
+
+          <div class="bubble bot-bubble">
+            Hello. I’m Z.Z.Z AI.  
+            Tell me what skin concerns or symptoms you have today.
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- INPUT -->
+      <div class="input-section">
+
+        <div class="quick-options">
+
+          <button class="quick-btn">Skin irritation</button>
+
+          <button class="quick-btn">Dry skin</button>
+
+          <button class="quick-btn">Acne</button>
+
+          <button class="quick-btn">Routine help</button>
+
+        </div>
+
+        <div class="input-row">
+
+          <input
+            type="text"
+            class="text-input"
+            id="input"
+            placeholder="Describe your skin condition..."
+          >
+
+          <button class="send-btn" onclick="sendMessage()">
+
+            <svg viewBox="0 0 24 24">
+              <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z"/>
+            </svg>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
